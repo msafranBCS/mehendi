@@ -1,0 +1,138 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact | Henna by Aaliya</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+  </head>
+  <body data-page="contact">
+    <header class="site-header">
+      <div class="container navbar">
+        <a href="index.html" class="brand-mark">Henna by Aaliya</a>
+        <nav>
+          <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">Menu</button>
+          <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="services.html">Services</a>
+            <a href="contact.html" class="active">Contact</a>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container hero-grid">
+          <div>
+            <div class="highlight-badge">Contact</div>
+            <h1 class="section-title">Let's plan your mehndi moment</h1>
+            <p class="section-lead">
+              Share event details below. We'll respond within 24 hours with availability, package recommendations, and prep resources.
+            </p>
+            <div class="chip-list">
+              <span class="chip">Dubai studio</span>
+              <span class="chip">Worldwide travel</span>
+              <span class="chip">WhatsApp ready</span>
+            </div>
+          </div>
+          <div class="card">
+            <h3>Direct message</h3>
+            <p>hello@henna-aaliya.com</p>
+            <p>+971 50 000 0000</p>
+            <p>
+              <a class="btn btn-outline" href="https://wa.me/971500000000" target="_blank" rel="noopener">WhatsApp studio</a>
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="container contact-grid">
+        <div class="contact-card">
+          <h2 class="section-title" style="font-size: 1.6rem;">Enquiry form</h2>
+          <div class="form-feedback" hidden></div>
+          <form id="enquiry-form">
+            <label for="name">Name *</label>
+            <input type="text" id="name" name="name" placeholder="Full name" required />
+
+            <label for="email">Email *</label>
+            <input type="email" id="email" name="email" placeholder="name@email.com" required />
+
+            <label for="phone">Phone / WhatsApp</label>
+            <input type="tel" id="phone" name="phone" placeholder="+971 50 000 0000" />
+
+            <label for="eventType">Event type *</label>
+            <select id="eventType" name="eventType" required>
+              <option value="">Select event</option>
+              <option>Bridal Mehndi</option>
+              <option>Sangeet / Mehndi Night</option>
+              <option>Engagement</option>
+              <option>Corporate / Brand</option>
+            </select>
+
+            <label for="eventDate">Event date *</label>
+            <input type="date" id="eventDate" name="eventDate" required />
+
+            <label for="location">City / Venue</label>
+            <input type="text" id="location" name="location" placeholder="City or venue" />
+
+            <label for="details">Tell us more</label>
+            <textarea id="details" name="details" placeholder="Guest count, style preferences, travel info"></textarea>
+
+            <button class="btn btn-primary" type="submit">Send enquiry</button>
+          </form>
+        </div>
+        <div class="contact-card">
+          <h2 class="section-title" style="font-size: 1.6rem;">Visit</h2>
+          <p>Studio (by appointment) <br />Building 8, Dubai Design District.</p>
+          <div class="map-embed" style="margin: 1.5rem 0;">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3608.411!2d55.2744!3d25.2048!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f682f1f6f1d81%3A0x2a0d7!2sDubai%20Design%20District!5e0!3m2!1sen!2sae!4v1700000000000"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+          <h3>Hours</h3>
+          <p>Tuesday - Sunday Â· 10am to 7pm</p>
+          <h3>Social</h3>
+          <p>@henna.aaliya on Instagram & Pinterest</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container footer-grid">
+        <div>
+          <div class="brand-mark">Henna by Aaliya</div>
+          <p>Luxury bridal & event mehndi across UAE, Qatar, and destination weddings worldwide.</p>
+        </div>
+        <div>
+          <h4>Visit</h4>
+          <p>Studio by appointment in Dubai Design District.</p>
+          <p>Travel worldwide on request.</p>
+        </div>
+        <div>
+          <h4>Connect</h4>
+          <p>
+            <a href="mailto:hello@henna-aaliya.com">hello@henna-aaliya.com</a><br />
+            +971 50 000 0000
+          </p>
+          <div class="chip-list">
+            <span class="chip">Instagram</span>
+            <span class="chip">Pinterest</span>
+            <span class="chip">WhatsApp</span>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="assets/js/main.js" defer></script>
+  </body>
+</html>
